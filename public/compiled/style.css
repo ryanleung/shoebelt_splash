@@ -1,15 +1,65 @@
 .navbar-default {
-  background-color: #333;
-  border-color: #333;
-  box-shadow: 0px 2px 5px 0px #555;
+  margin-bottom: 0px;
+  background-color: #1b1f23;
+  border-color: #1b1f23;
+  box-shadow: 0px 2px 5px 0px #000;
 }
 .navbar-default .navbar-brand {
-  padding-left: 100px;
+  padding-left: 120px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: #fff;
+}
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 14px;
+  color: #999;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #555;
 }
 * {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
+}
+body {
+  padding-top: 50px;
+}
+section * {
+  z-index: 2;
+}
+.main-header {
+  width: 100%;
+  height: 700px;
+  display: table;
+  vertical-align: middle;
+  position: relative;
+  text-align: center;
+  background-color: #2c3e50;
+}
+.background {
+  position: absolute;
+  background: url("http://i.imgur.com/rtg5FYX.jpg") no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  float: none;
+}
+.hero-unit {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background-color: transparent;
+  position: relative;
+}
+.hero-unit > h1 {
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
 }

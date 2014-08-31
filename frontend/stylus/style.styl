@@ -5,6 +5,8 @@ $gray-light   = lighten(#000, 60%)
 $gray-lighter = lighten(#000, 93.5%)
 $black = #000
 $white = #fff
+$nav-color = #1b1f23 
+$bg-color = #2c3e50
 
 $brand-primary = #428bca
 $brand-success = #5cb85c
@@ -13,21 +15,67 @@ $brand-warning = #f0ad4e
 $brand-danger = #d9534f
 
 $font-family-helvetica = "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+$font-family-normal = "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 $font-family-weight = 500
 
 
 .navbar-default
-  background-color $gray-dark
-  border-color $gray-dark
-  box-shadow 0px 2px 5px 0px $gray
+  margin-bottom 0px
+  background-color $nav-color
+  border-color $nav-color
+  box-shadow 0px 2px 5px 0px $black
   .navbar-brand
-    padding-left 100px
+    padding-left 120px
     font-family $font-family-helvetica
-    font-size 25px 
+    font-size 30px
     color $white
+  .navbar-brand:hover
+    color $white
+  .navbar-nav > li > a
+    font-size 14px
+    color $gray-light
+  .navbar-nav > li > a:hover
+    color $gray
 
 * {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
 }
 
+body { padding-top: 50px; }
+
+section *
+  z-index 2 
+
+.main-header
+  width 100%
+  height 700px
+  display table
+  vertical-align middle
+  position relative
+  text-align center
+  background-color $bg-color
+
+.background
+  position absolute
+  background url('http://i.imgur.com/rtg5FYX.jpg') no-repeat
+  background-size cover
+  opacity 0.75
+  top 0
+  left 0
+  bottom 0
+  right 0
+  z-index 1
+  float none
+
+.hero-unit
+  font-family $font-family-normal
+  font-weight 300
+  background-color transparent
+  position relative
+
+.hero-unit > h1
+  color $white
+  font-family $font-family-normal
+  font-weight 400
+  font-size 35px
