@@ -5,6 +5,7 @@ $gray-light   = lighten(#000, 60%)
 $gray-lighter = lighten(#000, 93.5%)
 $black = #000
 $white = #fff
+$gray-font = #bdc3c7
 $nav-color = #1b1f23 
 $bg-color = #2c3e50
 
@@ -60,7 +61,7 @@ section *
   position absolute
   background url('http://i.imgur.com/rtg5FYX.jpg') no-repeat
   background-size cover
-  opacity 0.75
+  opacity 0.65
   top 0
   left 0
   bottom 0
@@ -69,13 +70,17 @@ section *
   float none
 
 .hero-unit
+  margin-top 250px
   font-family $font-family-normal
   font-weight 300
+  color $gray-font
   background-color transparent
   position relative
+  font-size 25px
+  font-weight 300
 
 .hero-unit > h1
   color $white
   font-family $font-family-normal
-  font-weight 400
-  font-size 35px
+  font-weight 300
+  font-size 45px

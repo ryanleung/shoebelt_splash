@@ -43,7 +43,7 @@ section * {
   position: absolute;
   background: url("http://i.imgur.com/rtg5FYX.jpg") no-repeat;
   background-size: cover;
-  opacity: 0.75;
+  opacity: 0.65;
   top: 0;
   left: 0;
   bottom: 0;
@@ -52,14 +52,18 @@ section * {
   float: none;
 }
 .hero-unit {
+  margin-top: 250px;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
+  color: #bdc3c7;
   background-color: transparent;
   position: relative;
+  font-size: 25px;
+  font-weight: 300;
 }
 .hero-unit > h1 {
   color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 300;
+  font-size: 45px;
 }
