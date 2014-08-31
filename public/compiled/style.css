@@ -41,7 +41,7 @@ section * {
 }
 .background {
   position: absolute;
-  background: url("http://i.imgur.com/rtg5FYX.jpg") no-repeat;
+  background: url("bgimage.jpg") no-repeat;
   background-size: cover;
   opacity: 0.65;
   top: 0;
