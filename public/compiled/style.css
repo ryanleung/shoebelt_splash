@@ -55,7 +55,6 @@ section * {
   background-color: transparent;
   position: relative;
   font-size: 25px;
-  font-weight: 300;
 }
 .hero-unit > h1 {
   color: #fff;
@@ -83,4 +82,24 @@ section * {
 .app-store-btn:hover {
   background-color: #fff;
   color: #222;
+}
+.tutorial {
+  width: 100%;
+  display: table;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+.tutorial > h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+}
+.tutorial > h6,
+.tutorial-left-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #bdc3c7;
+  position: relative;
+  font-size: 25px;
 }
