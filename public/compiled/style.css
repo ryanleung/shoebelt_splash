@@ -55,9 +55,8 @@ section * {
   background-color: transparent;
   position: relative;
   font-size: 25px;
-  font-weight: 300;
 }
-.hero-unit > h1 {
+.hero-unit h1 {
   color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
@@ -83,4 +82,48 @@ section * {
 .app-store-btn:hover {
   background-color: #fff;
   color: #222;
+}
+.tutorial {
+  width: 100%;
+  display: table;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  margin-top: 50px;
+  height: 700px;
+}
+.tutorial h1 {
+  position: relative;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+}
+.tutorial h6 {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #34495e;
+  line-height: 25px;
+}
+.tutorial-left-text {
+  top: 100px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #bdc3c7;
+  position: relative;
+  font-size: 25px;
+}
+.tutorial-right-text {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #95a5a6;
+  position: relative;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.footer {
+  color: #fff;
+  background-color: #1b1f23;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 25px;
 }

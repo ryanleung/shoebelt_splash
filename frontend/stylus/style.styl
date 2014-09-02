@@ -17,6 +17,7 @@ $brand-danger = #d9534f
 
 $font-family-helvetica = "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 $font-family-normal = "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+$font-family-proxima = "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif
 $font-family-weight = 500
 
 
@@ -73,9 +74,8 @@ section *
   background-color transparent
   position relative
   font-size 25px
-  font-weight 300
 
-.hero-unit > h1
+.hero-unit h1
   color $white
   font-family $font-family-normal
   font-weight 300
@@ -100,3 +100,47 @@ section *
 .app-store-btn:hover
   background-color $white
   color $gray-darker
+
+.tutorial
+  width 100%
+  display table
+  text-align center
+  background-color $white
+  position relative
+  margin-top 50px
+  height 700px
+
+.tutorial h1
+  position relative
+  font-family $font-family-proxima
+  font-weight 300
+  font-size 45px
+
+.tutorial h6
+  font-family $font-family-proxima
+  font-size 20px
+  font-weight normal
+  color #34495e
+  line-height 25px
+
+.tutorial-left-text
+  top 100px
+  font-family $font-family-normal
+  font-weight 300
+  color $gray-font
+  position relative
+  font-size 25px
+
+.tutorial-right-text
+  font-family $font-family-proxima
+  color #95a5a6
+  position relative
+  line-height 24px
+  font-size 16px
+  font-weight 200
+
+.footer
+  color $white
+  background-color $nav-color
+  font-family $font-family-helvetica
+  font-size 25px
