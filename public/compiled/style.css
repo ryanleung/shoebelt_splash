@@ -106,7 +106,6 @@ section * {
   line-height: 25px;
 }
 .tutorial-left-text {
-  top: 100px;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   color: #bdc3c7;
@@ -126,4 +125,7 @@ section * {
   background-color: #1b1f23;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 25px;
+}
+.v-center {
+  display: table;
 }
